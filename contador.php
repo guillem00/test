@@ -1,5 +1,5 @@
 <?php
-$count=$ COOKIE['count'];
+$count=$_COOKIE['count'];
 
 if(isset($count)){
 $count++;
