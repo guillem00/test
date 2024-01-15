@@ -5,9 +5,9 @@ ini_set('display_stsrtup_errors',1);
 error_reporting(E_ALL);
 
 $servername = "localhost";
-$username = "admin";
-$password = "12345";
-$dbname = "estadistics";
+$username = "guillem";
+$password = "root";
+$dbname = "estadistiques";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
